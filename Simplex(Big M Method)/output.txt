@@ -1,1 +1,22 @@
+PS D:\CSE\Coding\C C++> & D:\CSE\Coding\Python\python.exe "d:/CSE/Coding/C C++/CS_ES/Simplex(Big M Method)/simplex.py"
+--- Big-M Simplex Solver ---
+Enter number of variables: 6
+Enter number of constraints: 3
 
+Enter initial tableau row by row:
+3 1 0 0 1 0 3
+4 3 -1 0 0 1 6
+1 2 0 1 0 0 4
+6996 3999 -1000 0 0 0 9000
+
+Enter initial basic variable indices:
+4 5 3
+
+Final Solution:
+x1 = 0.40000000000000013
+x2 = 1.7999999999999998
+x3 = 1.0
+x4 = 0
+x5 = 0
+x6 = 0
+Objective Value = -3.4000000000002046
