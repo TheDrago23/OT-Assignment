@@ -1,1 +1,29 @@
+PS D:\CSE\Coding\C C++> & D:\CSE\Coding\Python\python.exe "d:/CSE/Coding/C C++/CS_ES/Transportation Poblem/transportation.py"
+--- Transportation Problem Solver ---
+Enter number of sources: 3
+Enter number of destinations: 3
 
+Enter supply array:
+23 32 5
+
+Enter demand array:
+16 25 19
+
+Enter 3x3 cost matrix row by row:
+6 5 9
+7 3 10
+13 6 1
+
+Running VAM...
+Initial Allocation Matrix:
+[[16.  0.  7.]
+ [ 0. 25.  7.]
+ [ 0.  0.  5.]]
+Initial Cost = 309.0
+
+Running MODI...
+Final Optimal Matrix:
+[[16.  0.  7.]
+ [ 0. 25.  7.]
+ [ 0.  0.  5.]]
+Minimum Cost = 309.0
